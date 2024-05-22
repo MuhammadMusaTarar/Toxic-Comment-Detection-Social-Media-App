@@ -49,6 +49,11 @@ const PostWidget = ({
     });
     const updatedPost = await response.json();
     dispatch(setPost({ post: updatedPost }));
+    if (isLiked) {
+      toast.info(`Post Disliked by ${fullName}`);
+    } else {
+      toast.success(`Post Liked by ${fullName}`);
+    }
   };
 
   const handleCommentSubmit = async () => {
