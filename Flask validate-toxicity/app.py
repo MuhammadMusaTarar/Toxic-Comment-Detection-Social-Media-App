@@ -39,6 +39,12 @@ def classify_comment():
         logger.info(f"Received comment for classification: {comment}")
         
         processed_comment = preprocess_text(comment)
+        if processed_comment is None:
+            return jsonify({'error': 'Error preprocessing text.'}), 500
+        
+        logger.info(f"Processed comment shape: {processed_comment.shape}")
+        logger.info(f"Processed comment content: {processed_comment}")
+        
         prediction = model.predict(processed_comment).tolist()[0]
 
         response = {
