@@ -20,7 +20,7 @@
      ```sh
      cd server
      ```
-   - Install the necessary Node.js packages:
+   - Install the necessary Node.js packages (Use Linux Ubuntu) :
      ```sh
      npm install
      ```
@@ -34,7 +34,7 @@
      ```sh
      cd client
      ```
-   - Install the necessary Node.js packages:
+   - Install the necessary Node.js packages (Use Linux Ubuntu) :
      ```sh
      npm install
      ```
@@ -44,3 +44,10 @@
      ```
 
 By following these steps, you will have the Flask backend and the Node.js server and client up and running.
+
+- This Project was Prepared By: 
+```sh
+Muhammad Musa Tarar
+Alina Mustafa
+Syeda Nageena
+```
