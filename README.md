@@ -45,8 +45,7 @@
 
 By following these steps, you will have the Flask backend and the Node.js server and client up and running.
 
-**- This Project was Prepared By: **
-- 
+##This Project was Prepared By:
 ```sh
 Muhammad Musa Tarar
 Alina Mustafa
